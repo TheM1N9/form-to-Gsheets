@@ -19,17 +19,9 @@ body {
 	padding: 25px;
 }
 
-.text {
-	color: white;
-	max-width: 500px;
-	/* font-weight: 600; */
-}
-
-.text p {
-	font-size: medium;
-}
 
 main {
+	display: block;
 	gap: 25px;
 	background: rgba(255, 255, 255, 0.2);
 	border-radius: 16px;
