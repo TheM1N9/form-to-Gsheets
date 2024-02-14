@@ -14,8 +14,8 @@ body {
 	/* background-image: url('https://th.bing.com/th/id/R.2b171e97f78340be1b5280e6718ff356?rik=N%2bgcTIpl7yafUg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f4gTNThG.png&ehk=uEiVoUm7xZxneAgalddJI9UUKEVXUFitnwHfY0Arg4k%3d&risl=&pid=ImgRaw&r=0'); */
 	/* background-image: linear-gradient(to right, black, black,black, #bbb4a8); */
 	/* background-color: black; */
-	background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+	/* background: rgb(63,94,251); */
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 	padding: 25px;
 }
 
@@ -30,8 +30,8 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
 }
 
 main {
-	padding-block: 25px;
-	display: flex;
+	/* padding-block: 25px; */
+	/* display: flex; */
 	align-items: center;
 	justify-content: center;
 	gap: 25px;
