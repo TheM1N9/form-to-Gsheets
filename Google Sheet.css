@@ -1,0 +1,95 @@
+html{scroll-behavior:smooth}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'poppins', sans-serif;
+	font-size: 18px;
+}
+
+body {
+	/* height: 100vh; */
+	/* background-color: #003b5b; */
+	/* margin-inline: 25px; */
+	gap: 25px;
+	/* background-image: url('https://th.bing.com/th/id/R.2b171e97f78340be1b5280e6718ff356?rik=N%2bgcTIpl7yafUg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f4gTNThG.png&ehk=uEiVoUm7xZxneAgalddJI9UUKEVXUFitnwHfY0Arg4k%3d&risl=&pid=ImgRaw&r=0'); */
+	/* background-image: linear-gradient(to right, black, black,black, #bbb4a8); */
+	/* background-color: black; */
+	/* background: rgb(63,94,251); */
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+	padding: 25px;
+}
+
+.text {
+	color: white;
+	max-width: 500px;
+	/* font-weight: 600; */
+}
+
+.text p {
+	font-size: medium;
+}
+
+main {
+	/* padding-block: 25px; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* gap: 25px; */
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.container {
+	width: 500px;
+	padding: 30px;
+	border-radius: 10px;
+}
+ 
+.rules p{
+	padding-block: 5px;
+}
+h4 {
+	margin-bottom: 10px;
+	font-size: 24px;
+	color: white;
+}
+
+input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: none;
+}
+
+
+#submit {
+	border: none;
+	background-color: rgba(219, 80, 29, 0.767);
+	color: white;
+	/* width: 200px; */
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+#submit:hover {
+	background-color: orangered;
+}
+
+.content button{
+	background-image: linear-gradient(90deg,red,purple,blue);
+	border: 0;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.content button a{
+	color: white;
+}
